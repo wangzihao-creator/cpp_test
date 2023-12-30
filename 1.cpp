@@ -36,6 +36,7 @@ int main(){
     cout << sizeof(A) << endl;
     A b(2,3);
 
+    cout << "a" <<endl;
     cout << a.get_c() << " " << b.get_c() << endl;
     a.add_c(4);
     cout << a.get_c() << " " << b.get_c() << endl;
